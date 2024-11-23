@@ -81,9 +81,12 @@ ul{
 /* inizio regole main */
 
  /* regole macrosezione 1 */
-.jumbotron{
+#upper{
     background-image: url(./../img/jumbo.png);
     background-size: 100%;
+ }
+.jumbotron{
+    
     height: 550px;
     width: 100%;
     display: flex;
@@ -198,26 +201,41 @@ h1{
 /* macrosezione3 */
  #inversa{    
         display: flex;
-        background-color: rgb(202, 199, 199);
+        background-color: rgba(246,246,246,255)
                        
 }
 
 #inversa :last-child{
     order: -1; 
-    
-    
+        
 }
 
  /* macrosezione5 */
  #sezione5 {
-    height: 700px;
+    height: 800px;
+    background-color:rgba(246,246,246,255) ;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
  }
  #sezione5 div{
-    background-color: rgb(161, 207, 8);
+    
     height: 80%;
     width: 75%;
     border: 1px solid black;
     border-style: dashed;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 20%;  
+ }
+ #sezione5 h2{
+    font-size: 50px;
+ }
+ #sezione5 p{
+    margin: 0px 10%;
  }
  /* macrosezione 6 */
   .sezione6 {
