@@ -150,6 +150,9 @@ h1{
     /* transform: rotate(180deg); */
       
 }
+#wave2 {
+    transform: rotate(180deg);
+}
 
 
 
@@ -195,12 +198,14 @@ h1{
 /* macrosezione3 */
  #inversa{    
         display: flex;
-        background-color: rgb(202, 199, 199)
-               
+        background-color: rgb(202, 199, 199);
+                       
 }
 
 #inversa :last-child{
-    order: -1;     
+    order: -1; 
+    
+    
 }
 
  /* macrosezione5 */
