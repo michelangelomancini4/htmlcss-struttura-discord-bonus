@@ -84,7 +84,7 @@ ul{
 .jumbotron{
     background-image: url(./../img/jumbo.png);
     background-size: 100%;
-    height: 99%;
+    height: 550px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -138,42 +138,71 @@ h1{
     width: 230px;
         
 }
+/* regole wave */
+.wave{
+    margin-bottom: 0;
+   /
+    display: flex; 
+}
+.wave img{
+    width: 100%;
+    height: 100%;
+    /* transform: rotate(180deg); */
+      
+}
+
+
 
 /* regole macrosezione 2 */
 .macrosezione2{
-    background-color: yellow;
-    height: 450px;
+    /* background-color: yellow; */
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* gap: 50px; */
+    justify-content: space-evenly;
 }
 
-.macrosezione2 span{
+.macrosezione2 div{
     height: 70%;
     border: 1px solid black;
     border-style: dashed;
+    gap: 50px;
    }
+   
 
 .macrosezione2 :first-child{
-    background-color: rgb(12, 161, 9);
-    flex-basis: 55%;
+    /* background-color: rgb(12, 161, 9); */
+    flex-basis: 45%;
+    height: 90%;
 }
 .macrosezione2 :last-child {
-    background-color: fuchsia;
-    flex-basis: 20%;
-    
+    /* background-color: fuchsia; */
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;     
+}
+.macrosezione2 h2{
+    font-size: 50px;
+}
+.macrosezione2 p{
+
+    font-size: 17px;
+
 }
 /* macrosezione3 */
  #inversa{    
         display: flex;
-        background-color: rgb(22, 150, 213);
-       
+        background-color: rgb(202, 199, 199)
+               
 }
-/* macrosezione3 */
-#inversa :last-child{
-    order: -1;       
 
+#inversa :last-child{
+    order: -1;     
 }
+
  /* macrosezione5 */
  #sezione5 {
     height: 700px;
@@ -194,7 +223,7 @@ h1{
         justify-content: center;
         align-items: center;
   }
-  .sezione6 span{
+  .sezione6 div{
     height: 80%;
     border: 1px solid black;
     border-style: dashed;
