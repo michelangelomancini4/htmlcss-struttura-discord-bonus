@@ -1,0 +1,243 @@
+
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* regole header */
+header {
+    background-color: rgba(37,94,233,255);
+    height: 60px;
+    
+        
+}
+/* regole nav generali */
+#main-nav{
+    display: flex;
+    justify-content: center;          
+    
+}
+
+#main-nav div{
+    /* background-color: yellow; */
+    /* border: 1px solid black;
+    border-style: dashed; */
+    height: 35px;
+    margin-top: 11px;
+    align-content: center; 
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    }
+    /* regole figli nav */
+#lista-link{
+    
+    flex-basis: 30%; 
+    justify-content: space-around;
+     
+}
+
+ul{
+    list-style: none;
+    color: white;
+    display: flex; 
+    gap: 25px; 
+    margin: 0 100px;
+                
+}
+
+/* regole tasti laterali */
+.small-nav{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+        
+}
+.small-nav span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* tasto accedi */
+
+#accedi{    
+      align-items: flex-end;      
+}
+#accedi button{
+    width: 100px;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: white;
+    color: black; 
+    border: 0px; 
+    }
+
+
+
+/* inizio regole main */
+
+ /* regole macrosezione 1 */
+.jumbotron{
+    background-image: url(./../img/jumbo.png);
+    background-size: 100%;
+    height: 99%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+.jumbotron section{
+    
+    color: white;
+    margin-top: 25px;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+/* regole titolo macrosezione 1 */
+h1{
+       font-size: 45px;
+}
+/* regole paragrafo macrosezione 1 */
+#upper p{
+     font-size: 16px;
+     margin: 7% 15%;
+     line-height: 35px;
+}
+/* regole bottoni macrosezione1 */
+#upper button{
+    width: 180px;
+    height: 55px;
+    border-radius: 9999px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    border: 0px;
+    
+
+}
+#upper div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 80px;
+    
+    }
+
+#upper div :last-child{
+    color: white;
+    background-color: rgb(10, 2, 2);
+    width: 230px;
+        
+}
+
+/* regole macrosezione 2 */
+.macrosezione2{
+    background-color: yellow;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.macrosezione2 span{
+    height: 70%;
+    border: 1px solid black;
+    border-style: dashed;
+   }
+
+.macrosezione2 :first-child{
+    background-color: rgb(12, 161, 9);
+    flex-basis: 55%;
+}
+.macrosezione2 :last-child {
+    background-color: fuchsia;
+    flex-basis: 20%;
+    
+}
+/* macrosezione3 */
+ #inversa{    
+        display: flex;
+        background-color: rgb(22, 150, 213);
+       
+}
+/* macrosezione3 */
+#inversa :last-child{
+    order: -1;       
+
+}
+ /* macrosezione5 */
+ #sezione5 {
+    height: 700px;
+ }
+ #sezione5 div{
+    background-color: rgb(161, 207, 8);
+    height: 80%;
+    width: 75%;
+    border: 1px solid black;
+    border-style: dashed;
+ }
+ /* macrosezione 6 */
+  .sezione6 {
+
+        background-color: #00bfff;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+  .sezione6 span{
+    height: 80%;
+    border: 1px solid black;
+    border-style: dashed;
+    background-color: chocolate;
+    flex-basis: 13%;
+  }
+  .sezione6 :first-child{
+    background-color: pink;
+    flex-basis: 22%;
+  }
+  
+  /* fine-sezioni */
+
+  /* footer */
+  #second-nav{
+    background-color: #00bfff;
+    display: flex;
+    justify-content: center;
+    height: 70px;  
+    align-items: flex-end; 
+    
+  }
+  #second-nav div{
+    background-color: yellow;
+    border: 1px solid black;
+    border-style: dashed;
+    flex-basis: 40%;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+   }
+   #second-nav :first-child{
+    align-items: flex-start;
+    display: flex;
+      
+   }
+   #second-nav span{
+    background-color: rgb(12, 200, 15);
+    border: 1px solid black;
+    border-style: dashed;
+    height: 20px;
+   }
+   
