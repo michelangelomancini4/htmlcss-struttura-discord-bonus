@@ -84,6 +84,8 @@ ul{
 #upper{
     background-image: url(./../img/jumbo.png);
     background-size: 100%;
+       
+    
  }
 .jumbotron{
     
@@ -123,8 +125,7 @@ h1{
     background-color: white;
     color: black;
     font-size: 17px;
-    border: 0px;
-    
+    border: 0px;    
 
 }
 #upper div{
@@ -144,7 +145,6 @@ h1{
 /* regole wave */
 .wave{
     margin-bottom: 0;
-   /
     display: flex; 
 }
 .wave img{
@@ -237,6 +237,53 @@ h1{
  #sezione5 p{
     margin: 0px 10%;
  }
+ /* footer macrosez 5 */
+/* regole generali domanda finale */
+#domandafinale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 200px;
+    background-color:rgba(246,246,246,255) ;
+             
+    
+}
+/* regole generali figli */
+#domandafinale div{
+   
+
+    border: 1px solid black;
+    border-style: dashed;
+    font-size: 25px;    
+    align-content: center; 
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    }
+    /* regole specifiche figli */
+.df{
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: row; 
+    margin-bottom: 30px;     
+        
+}
+.df span{
+     align-self: center;  
+            
+}
+.df button {
+    width: 180px;
+    height: 55px;
+    border-radius: 9999px;
+    background-color: rgb(57, 107, 224);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border: 0px; 
+}
+
+
  /* macrosezione 6 */
   .sezione6 {
 
